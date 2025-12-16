@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+    }
+    
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    align-items: center;
+    }
+    
+@font-face {
+    src: url("CursedTimerUlil.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+.square {
+    background-color: #080001;
+    color: #F94F6D;
+    height: 100px;
+    width: 120px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 70px;
+    justify-content: center;
+    margin-top: 8px;
+    
+}
+.btns {
+    margin-top: 20px;
+    border-radius: 6px;
+    height: 40px;
+    width: 40px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+}
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.guest-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns-container {
+    margin-top: 20px;
+}
+#resethome-btn {
+    margin: 6px;
+    border-radius: 6px;
+    height: 50px;
+    width: 130px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 19px;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-weight: bold;
+}
+#resetguest-btn {
+    margin: 6px;
+    border-radius: 6px;
+    height: 50px;
+    width: 130px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 19px;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-weight: bold;
+}
+#newgame-btn {
+    border-radius: 6px;
+    height: 50px;
+    width: 130px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-weight: bold;
+    display: block;
+    margin: 35px auto 20px auto;
+    }
+#reset-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}

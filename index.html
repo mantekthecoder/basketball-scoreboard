@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-container">
+                <h3>HOME</h3>
+                <div class="square" id="home-count">.</div>
+                <div class="btns-container">
+                    <button class="btns" onclick="addhome1()"> +1 </button>
+                    <button class="btns" onclick="addhome2()"> +2 </button>
+                    <button class="btns" onclick="addhome3()"> +3 </button>
+                </div>   
+            </div>
+            <div class="guest-container">
+                <h3>GUEST</h3>
+                <div class="square" id="guest-count">.</div>
+                <div class="btns-container">
+                    <button class="btns" onclick="addguest1()"> +1 </button>
+                    <button class="btns" onclick="addguest2()"> +2 </button>
+                    <button class="btns" onclick="addguest3()"> +3 </button>
+                </div>   
+            </div>
+        </div>
+        <div class="other-functions-cont">
+            <button id="newgame-btn" onclick="newgame()">New Game</button>
+            <div id="reset-btns">
+                <button class="flex-btns" id="resethome-btn" onclick="resethome()">Reset Home</button>
+                <button class="flex-btns" id="resetguest-btn" onclick="resetguest()">Reset Guest</button>
+            </div>    
+        <script src="index.js"></script>
+    </body>
+</html>
